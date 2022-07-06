@@ -1,142 +1,74 @@
 <html>
 <head>
-<title> REGISTRATION PAGE</title>
-<body background="rgukt.png">
+<title >
+FORMS
+</title>
+<style>
+body {background-color:black;}
+p{color:lightblue;}
+</style>
 </head>
-<center>
-<h3 style="align:center;color:blue;"><u>REGISTARTION PAGE</u></h3>
-<table border="3" bgcolor="lightgray">
-<tr><td>
-<form name="f1" action=""method="post">
-<table cellpadding="5" cellspacing="10">
-<tr>
-<td>NAME</td>
-<td><input type="text" size="30"/></td>
-</tr>
-<tr>
-<td>PASSWORD</td>
-<td><input type="password" size="30"/></td>
-</tr>
-<tr>
-<td>E-MAIL ID</td>
-<td><input type="text" size="30"/></td>
-</tr>
-<tr>
-<td>PHONE NUMBER</td>
-<td><input type="text" size="15"/></td>
-</tr>
-<tr>
-<td>GENDER</td>
-<td><input type="radio" name="gen" value="male"/>MALE
-<input type="radio" name="gen" value="female"/>FEMALE</td>
-</tr>
-<tr>
-<td>DATE OF BIRTH</td>
-<td><select name="day">
-<option>DAY</option>
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-<option>6</option>
-<option>7</option>
-<option>8</option>
-<option>9</option>
-<option>10</option>
-<option>11</option>
-<option>12</option>
-<option>13</option>
-<option>14</option>
-<option>15</option>
-<option>16</option>
-<option>17</option>
-<option>18</option>
-<option>19</option>
-<option>20</option>
-<option>21</option>
-<option>22</option>
-<option>23</option>
-<option>24</option>
-<option>25</option>
-<option>26</option>
-<option>27</option>
-<option>28</option>
-<option>29</option>
-<option>30</option>
-<option>31</option>
+<body >
+<b>
+<center><h1 style="color:limegreen"><u>APPLICATION FORMS</u></h1></center><br>
+<fieldset style="color:white">
+<legend style="color:skyblue">	RGUKT APPLICATION</legend>
+<form style="color:white;">
+<fieldset style="color:white">
+<h3 style="color:red"><u>NAME:-</u></h3>
+FIRST NAME :-
+<input type="text" name="first name"><br>
+<br>
+LAST NAME:-
+<input type="text" name="last name"><br>
+</fieldset>
+<br>
+<fieldset style="color:white">
+<h3 style="color:magenta"><u>GENDER:-</u></h3>
+<input type="radio" name="gender" value="male" checked>Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="other">Other
+</fieldset>
+<br>
+<fieldset style="color:white">
+<h3 style="color:yellow"><u>CHECK BOX:-</u></h3>
+<input type="checkbox" name="yoga">YOGA
+
+<input type="checkbox" name="sports" checked>SPORTS <br>
+
+<input type="checkbox" name="music">MUSIC
+
+<input type="checkbox" name="dance">DANCE<br>
+
+<input type="checkbox" name="ncc">NCC
+
+<input type="checkbox" name="nss">NSS
+</fieldset>
+<br>
+<h3 style="color:limegreen"><u>SSC GRADE MARKS:-</u></h3>
+<space><select name="GRADE POINTS">
+<option value="10/10">10/10</option>
+<option value="9.8">9.8</option>
+<option value="9.7">9.7</option>
+<option value="9.5">9.5</option>
 </select>
-<select name="month">
-<option>MONTH</option>
-<option>JANUARY</option>
-<option>FEBRUARY</option>
-<option>MARCH</option>
-<option>APRIL</option>
-<option>MAY</option>
-<option>JUNE</option>
-<option>JULY</option>
-<option>AUGUST</option>
-<option>SEPTEMBER</option>
-<option>OCTOBER</option>
-<option>NOVEMBER</option>
-<option>DECEMBER</option>
-</select>
-<select name="YEAR">
-<option value="year">YEAR</option>
-<option>1985</option>
-<option>1986</option>
-<option>1987</option>
-<option>1988</option>
-<option>1999</option>
-<option>2000</option>
-<option>2001</option>
-<option>2002</option>
-<option>2003</option>
-<option>2004</option>
-<option>2005</option>
-<option>2006</option>
-<option>2007</option>
-<option>2008</option>
-<option>2009</option>
-<option>2010</option>
-<option>2011</option>
-<option>2012</option>
-<option>2013</option>
-<option>2014</option>
-<option>2015</option>
-<option>2016</option>
-<option>2017</option>
-<option>2018</option>
-<option>2019</option>
-<option>2020</option>
-<option>2021</option>
-<option>2022</option>
-</select>
-</td>
-</tr>
-<tr>
-<td>LANGUAGES KNOWN</td>
-<td><input type="checkbox"/>TELUGU
-<input type="checkbox"/>HINDI
-<input type="checkbox"/>ENGLISH
-<input type="checkbox"/>MALAYALAM
-</td>
-</tr>
-<tr>
-<td>ADDRESS</td>
-<td><textarea name="add" cols="25" rows="5"></textarea></td>
-</tr>
-<tr>
-<td colspan="2" align="center" ><button onclick="myFunction()">submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="RESET"/></td>
-</tr>
-<script>
-function myFunction() { alert("YOUR INFORMATION IS REGISTERED");}
-</script>
-</table>
+<br>
+<br>
+<br>
+<fieldset style="color:white">
+<h3 style="color:lightblue"><u> DISCRIPTION:-</u></h3>
+<textarea name="message" rows="10" cols="100">GIVE YOUR DISCRIPTION HERE</textarea>
+</fieldset>
+<br>
 </form>
-</td>
-</tr>
-</table>
-</center>
+</b>
+</fieldset>
+<br>
+<br>
+<br>
+<button onclick="myFunction()">CLICK HERE TO SUBMIT</button>
+<script>
+function myFunction() { alert("YOUR INFORMATION IS SUCCESSFULLY HACKED");}
+</script>
 </body>
 </html>
