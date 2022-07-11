@@ -1,0 +1,15 @@
+	.id{
+			display: flex;
+			justify-content: space-between;
+			width: 100vw;
+			height: 100vh;
+		}
+
+	.child{
+           background-color: white;
+          width: 100vw;
+			height: 100vh;
+
+
+	}
+	
